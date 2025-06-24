@@ -36,3 +36,4 @@ build/
 #NDK
 obj/
 
+/app/release/

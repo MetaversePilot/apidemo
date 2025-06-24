@@ -1682,4 +1682,5 @@
     <string name="current_orientation">Current Orientation</string>
     <string name="requested_orientation">Requested orientation</string>
     <string name="public_storage_failure">Error writing to public storage, either you forgot to ask for permission or you are running on Q or above.</string>
+    <string name="activity_camera">App/Activity/Camera2</string>
 </resources>

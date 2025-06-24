@@ -188,7 +188,7 @@ open class ApiDemos : AppCompatActivity() {
         for (i in 0 until len) {
             val info = list[i]
             val labelSeq = info.loadLabel(pm)
-            val label = labelSeq?.toString() ?: info.activityInfo.name
+            val label = labelSeq.toString() ?: info.activityInfo.name
 
             if (prefixWithSlash.isEmpty() || label.startsWith(prefixWithSlash)) {
 
